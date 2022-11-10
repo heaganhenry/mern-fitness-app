@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const express = require('express');
+const workoutRoutes = require('./routes/workouts');
 
 const app = express();
 
@@ -14,3 +15,5 @@ app.use((req, res, next) => {
 app.listen(process.env.PORT, () => {
     console.log('listening on port', process.env.PORT);
 });
+
+app.use('/api/workouts', workoutRoutes);
