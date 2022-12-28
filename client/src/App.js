@@ -5,8 +5,8 @@ import Home from './pages/Home';
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <div className="pages">
-        <Navbar />
         <Routes>
           <Route
             path="/"
