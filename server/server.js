@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
+const userRoutes = require('./routes/user');
 const workoutRoutes = require('./routes/workouts');
 
 const app = express();
@@ -26,4 +27,5 @@ mongoose.connect(process.env.DB_URI)
         console.log(error);
     });
 
+app.use('/api/user', userRoutes);
 app.use('/api/workouts', workoutRoutes);
