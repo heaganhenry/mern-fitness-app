@@ -20,7 +20,9 @@ const Home = () => {
             }
         };
 
-        fetchWorkouts();
+        if (user) {
+            fetchWorkouts();
+        }
     }, [dispatch, user]);
 
     return (
