@@ -4,6 +4,6 @@ React frontend using context to reflect the state of the data stored in MongoDB.
 Backend server running on Node and Express.
 
 To-Do:
-- Allow the user to edit workouts
+- Allow user to edit entries
 - Allow users to track meals
-- Display workouts and meals based on the day
+- Display data for the selected the date
