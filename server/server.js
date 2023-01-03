@@ -13,6 +13,8 @@ app.use((req, res, next) => {
     next();
 });
 
+mongoose.set('strictQuery', false);
+
 mongoose.connect(process.env.DB_URI)
     .then(() => {
         console.log('connected to db');
