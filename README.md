@@ -1,6 +1,6 @@
 # mern-fitness-app
 
-mern-fitness-app is a full stack web application that allows users to create and sign into accounts to track their workouts. The frontend is built with React, and it uses context to reflect the state of the data stored in MongoDB. The backend server is developed using Node.js and Express. User accounts are authenticated with jsonwebtoken, and passwords are hashed using bcrypt.
+This is a full stack web application that allows users to create and sign into accounts to track their workouts. The frontend is built with React, and it uses context to reflect the state of the data stored in MongoDB. The backend server is developed using Node.js and Express. User accounts are authenticated with jsonwebtoken, and passwords are hashed using bcrypt.
 
 ## Table of Contents
 - [To-Do](#to-do)
@@ -20,7 +20,7 @@ To install and set up the project locally, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/mern-fitness-app.git
+git clone https://github.com/heaganhenry/mern-fitness-app.git
 ```
 
 2. Navigate to the server directory:
