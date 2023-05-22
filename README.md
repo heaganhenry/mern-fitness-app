@@ -43,7 +43,7 @@ cd ../client
 npm install
 ```
 
-6. Set up the MongoDB database by providing the `DB_URI` and `SECRET` in a `.env` file in the server directory:
+6. Set up the MongoDB database by providing the `DB_URI` and `SECRET` in a `.env` file in the server directory:  
 DB_URI=your-mongodb-connection-uri  
 SECRET=your-secure-secret
 
