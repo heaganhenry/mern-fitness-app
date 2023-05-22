@@ -43,11 +43,13 @@ cd ../client
 npm install
 ```
 
+6. Set up the MongoDB database by providing the DB_URI and SECRET in a `.env` file in the server directory:
+DB_URI=your-mongodb-connection-uri
+SECRET=your-secure-secret
+
 
 ## Usage
 To use the mern-fitness-app, follow these steps:
-
-0. The backend requires a MongoDB database, create a .env file in the server directory with DB_URI and SECRET
 
 1. Start the backend server from the server directory:
 ```
