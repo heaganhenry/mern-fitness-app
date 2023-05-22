@@ -1,6 +1,6 @@
 # mern-fitness-app
 
-This is a full stack web application that allows users to create and sign into accounts to track their workouts. The frontend is built with React, and it uses context to reflect the state of the data stored in MongoDB. The backend server is developed using Node.js and Express. User accounts are authenticated with jsonwebtoken, and passwords are hashed using bcrypt.
+This is a full stack web application that allows users to create and sign into accounts to track their workouts. The frontend is built with React, and it uses context to reflect the state of the data stored in MongoDB. The backend server is developed using Node and Express. User accounts are authenticated with jsonwebtoken, and passwords are hashed using bcrypt.
 
 ## Table of Contents
 - [To-Do](#to-do)
