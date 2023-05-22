@@ -47,6 +47,8 @@ npm install
 ## Usage
 To use the mern-fitness-app, follow these steps:
 
+0. The backend requires a MongoDB database, create a .env file in the server directory with DB_URI and SECRET
+
 1. Start the backend server from the server directory:
 ```
 npm run dev
